@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple-500: #d15a5a;
+  --gray-800: #181a1b;
+  --gray-500: #141c3a;
+  --gray-200: #cfcbc5;
+  --white: #fff;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem /* default: 16px */;
+  font-weight: 300;
+  color: var(--gray-500);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-left: 1px solid #e6ecf8;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--gray-500);
+}
